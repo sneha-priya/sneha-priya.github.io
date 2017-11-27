@@ -1,0 +1,12 @@
+body{
+    font-family:Arial, sans-serif;
+}
+table{
+    border:2px solid black;
+    border-collapse:collapse;
+    
+
+}
+li{
+    list-style-type:square;
+}
