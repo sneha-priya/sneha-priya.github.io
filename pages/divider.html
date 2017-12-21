@@ -4,15 +4,23 @@
         <title>Divider</title>
         <link rel = "stylesheet"  href = "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
         <link rel = "stylesheet" href = "../css/bulma-divider.css">
+        <style>
+        .columns{
+            divider-background-color:blue;
+            divider: font size size -10;
+            divider-color:black;
+        }</style>
     </head>
     <body>
+        <div class = "container">
         <!--HORIZONTAL DIVIDER-->
         <div class = "is-divider" data-content = "OR"></div>
         <!--VERTICAL DIVIDER-->
         <div class = "columns">
-            <div class = "column"></div>
+            <div class = "column">Text1</div>
             <div class = "is-divider-vertical" data-content = "OR"></div>
-            <div class = "column"></div>
+            <div class = "column">Text2</div>
+        </div>
         </div>
     </body>
 </html>
