@@ -10,58 +10,63 @@
             background-color:#EF5350;
             border-radius:50%;
             display:inline-block;
-            text-align:center;;
+            text-align:bootom;
             line-height:100px;
             margin:5px;
             border:5px solid black;
-            font-size:14px;
+            font-size:13px;
+            font-weight:bold;
         }
         .paint{
             width:100px;
             height:100px;
             background-color:#B3E5FC;
             border-radius:50%;
-            text-align:0;
             display:inline-block;
             text-align:center;
             line-height:100px;
             margin:5px;
             border:5px solid black;
+            font-size:13px;
+            font-weight:bold;
         }
         .craft{
             width:100px;
             height:100px;
             background-color:#AED581;
             border-radius:50%;
-            text-align:0;
             display:inline-block;
             text-align:center;
             line-height:100px;
             margin:5px;
             border:5px solid black;
             color:black;
+            font-size:13px;
+            font-weight:bold;
         }
         .cook{
             width:100px;
             height:100px;
             background-color:#FFF59D;
             border-radius:50%;
-            text-align:0;
             display:inline-block;
             text-align:center;
             line-height:100px;
             margin:5px;
             border:5px solid black;
             color:black;
+            font-size:13px;
+            font-weight:bold;
         }
         body{
-            background-color:#01579B;
+            background-color:rgb(12, 16, 61);
             margin:auto;
             width:100%;
         }
         h1{
             overflow:hidden;
-            color:whitesmoke;
+            color:white;
+            font-family: 'merriweather', serif;
         }
         h1:after{
             content:'';
@@ -69,16 +74,18 @@
             width:50%;
             height:100%;
             margin-right:-100%;
-            border-bottom:3px solid black;
+            border-bottom:3px solid white;
+        }
+        .fa{
+            position:auto;
         }
         </style>
     </head>
     <body>
-        <h1 class = "title is -3">Hobbies</h1>
-        <circle class = "sketch"><a href = "#"><i class = "fa fa-pencil fa-2x"></i>
-         Sketching</a></circle>
-        <circle class = "paint"><a href = "#">Painting</a></circle>
-        <circle class = "craft"><a href = "#" target = "_blank">Crafting</a></circle>
-        <circle class = "cook"><a href = "#" target = "_blank">Cooking</a></circle>
+        <h1 class = "title is -3">HOBBIES</h1>
+        <circle class = "sketch"><i class = "fa fa-pencil fa-2x"></i><a href = "#">Sketching</a></circle>
+        <circle class = "paint"><i class = "fa fa-paint-brush fa-2x" aria-hidden = "true"></i><a href = "#"> Painting</a></circle>
+        <circle class = "craft"><i class = "fa fa-scissors fa-2x" aria-hidden = "true"></i><a href = "#" target = "_blank"> Crafting</a></circle>
+        <circle class = "cook"><i class = "fa fa-cutlery fa-2x" aria-hidden = "true"></i><a href = "#" target = "_blank"> Cooking</a></circle>
     </body>
 </html>
