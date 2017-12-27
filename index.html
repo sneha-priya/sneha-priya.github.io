@@ -8,18 +8,79 @@
     <link rel = "stylesheet" href = "portfolio.css">
     <style>
     h1{
-            overflow:hidden;
-            color:white;
-            font-family: 'merriweather', serif;
-        }
-        h1:after{
-            content:'';
-            display:inline-block;
-            width:50%;
-            height:100%;
-            margin-right:-100%;
-            border-bottom:3px solid white;
-        }
+      overflow:hidden;
+      color:white;
+      font-family: 'merriweather', serif;
+    }
+    h1:after{
+      content:'';
+      display:inline-block;
+      width:70%;
+      height:100%;
+      margin-right:-100%;
+      border-bottom:3px solid black;
+    }
+    .sketch{
+      width:100px;
+      height:100px;
+      background-color:#EF5350;
+      border-radius:50%;
+      display:inline-block;
+      text-align:bootom;
+      line-height:100px;
+      margin:5px;
+      border:5px solid black;
+      font-size:13px;
+      font-weight:bold;
+    }
+    .paint{
+      width:100px;
+      height:100px;
+      background-color:#B3E5FC;
+      border-radius:50%;
+      display:inline-block;
+      text-align:center;
+      line-height:100px;
+      margin:5px;
+      border:5px solid black;
+      font-size:13px;
+      font-weight:bold;
+    }
+    .craft{
+      width:100px;
+      height:100px;
+      background-color:#AED581;
+      border-radius:50%;
+      display:inline-block;
+      text-align:center;
+      line-height:100px;
+      margin:5px;
+      border:5px solid black;
+      color:black;
+      font-size:13px;
+      font-weight:bold;
+    }
+    .cook{
+      width:100px;
+      height:100px;
+      background-color:#FFF59D;
+      border-radius:50%;
+      display:inline-block;
+      text-align:center;
+      line-height:100px;
+      margin:5px;
+      border:5px solid black;
+      color:black;
+      font-size:13px;
+      font-weight:bold;
+    }
+    body{
+      margin:auto;
+      width:100%;
+    }
+    .fa{
+      position:auto;
+    }
     </style>
   </head>
   <body>
@@ -68,12 +129,83 @@
     <section class = "hero is-medium">
       <div class = "hero-body">
         <div class = "container">
-          <h1 class = "title is -3">ABOUT ME</h1>
+          <h1 class = "title is -3">ABOUT ME  </h1>
           <p>About.me (Usually styled as about.me) is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009.[1] The site offers registered users a simple platform from which to link multiple online identities, relevant external sites, and popular social networking websites such as Facebook, Flickr, Google+, Pinterest, LinkedIn, Twitter, Tumblr, and YouTube. It is characterized by its one-page user profiles, each with a large, often-artistic background image and abbreviated biography.</p>
           <i class = "fa fa-envelope" aria-hidden = "true"><a href = "mailto:snehapriya9527@gmail.com">Email</a></i>
         </div>
       </div>
     </section>
+    <div class = "container">
+      <h1 class = "title is -3"><i class = "fa fa-graduation-cap" aria-hidden = "true"></i> ACADEMICS  </h1>
+      <figure class = "image is-16by9">
+        <img src = "images/academics.svg">
+      </figure>
+    </div>
+      <div class = "container">
+        <h1 class = "title is-3"><i class = "fa fa-cogs" aria-hidden = "true"></i> SKILLS  </h1>
+        <p class = "title is-5">Programming:</p>
+        <ul class = "steps is-narrow is-large is-centered has-content-centered">
+          <li class = "steps-segment">
+              <a href = "#" class = "has-text-dark">
+                  <span class = "steps-marker"><img src = "images/python.sh-600x600.png"></span>
+                  <div class = "steps-content">
+                      <p class = "heading">Python</p>
+                  </div>
+              </a>
+          </li>
+          <li class = "steps-segment">
+              <a href = "#" class = "has-text-dark">
+                  <span class = "steps-marker"><img src = "images/html5logo-new.png"></span>
+                  <div class = "steps-content">
+                      <p class = "heading">HTML</p>
+                  </div>
+              </a>
+          </li>
+          <li class = "steps-segment">
+              <a href = "#" class = "has-text-dark">
+                  <span class = "steps-marker"><img src = "images/css31.png"></span>
+                  <div class = "steps-content">
+                      <p class = "heading">CSS</p>
+                  </div>
+              </a>
+          </li>
+          <li class = "steps-segment">
+              <a href = "#" class = "has-text-dark">
+                  <span class = "steps-marker"><img src = "images/flask.png"></span>
+                  <div class = "steps-content">
+                      <p class = "heading">Flask</p>
+                  </div>
+              </a>
+          </li>
+          <li class = "steps-segment">
+              <a href = "#" class = "has-text-dark">
+                  <span class = "steps-marker"><img src = "images/Git-Icon-Black.png"></span>
+                  <div class = "steps-content">
+                      <p class = "heading">Git</p>
+                  </div>
+              </a>
+          </li>
+        </ul>
+        <p class = "title is-5">Tools:</p>
+        <div class = "container">
+            <img src = "images/gimplogo.png">  
+            <img src = "images/inkscapelogo.png">
+        </div><br>
+          <p class = "title is-5">Personal Skills:</p>
+          <ul>
+            <li>Time management</li>
+            <li>Leadership</li>
+            <li>Creativity</li>
+            <li>Team Player</li>
+          </ul>
+      </div><br>
+        <div class = "container">
+          <h1 class = "title is -3"> HOBBIES </h1>
+          <circle class = "sketch"><i class = "fa fa-pencil fa-2x"></i><a href = "#">Sketching</a></circle>
+          <circle class = "paint"><i class = "fa fa-paint-brush fa-2x" aria-hidden = "true"></i><a href = "#"> Painting</a></circle>
+          <circle class = "craft"><i class = "fa fa-scissors fa-2x" aria-hidden = "true"></i><a href = "#" target = "_blank"> Crafting</a></circle>
+          <circle class = "cook"><i class = "fa fa-cutlery fa-2x" aria-hidden = "true"></i><a href = "#" target = "_blank"> Cooking</a></circle>
+        </div>
   </body>
 </html>
 
