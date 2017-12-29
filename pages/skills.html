@@ -3,11 +3,76 @@
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-        <title>Portfolio</title>
-        <link rel = "stylesheet"  href = "../portfolio.css">
+        <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sneha Priya</title>
+        <link rel = "stylesheet" href = "../portfolio.css">
+        <style>
+            body{
+                margin:auto;
+                width:100%;
+            }
+            h1{
+            overflow:hidden;
+            color:white;
+            font-family: 'merriweather', serif;
+            }
+            h1:after{
+            content:'';
+            display:inline-block;
+            width:75%;
+            height:100%;
+            margin-right:-100%;
+            border-bottom:3px solid black;
+            }
+        </style>
     </head>
     <body>
-            <ul class = "steps is-narrow is-medium is-centered has-content-centered">
+        <section class = "hero is-black is-medium is-bold">
+            <div class = "hero head">
+                <nav class = "navbar">
+                <div class = "container">
+                    <div class = "nav-brand">
+                    <a class = "navbar-item" href = "#">Sneha Priya</a>
+                    <span class = "navbar-burger burger" data-target = "navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    </div>
+                </div>
+                <div id = "navbarMenu" class = "navbar-menu">
+                    <div class = "navbar-end">
+                    <a href = "" class = "navbar-item">
+                        About Me
+                    </a>
+                    <a href = "academics.html" class = "navbar-item">
+                        Academics
+                    </a>
+                    <a href = "skills.html" class = "navbar-item">
+                        Skills
+                    </a>
+                    <a href = "" class = "navbar-item">
+                        Projects
+                    </a>
+                    <a href = "gallery.html" class = "navbar-item is-active">
+                        Gallery
+                    </a>
+                    </div>
+                </div>
+                </nav>
+            </div>
+            <div class = "hero-body">
+                <div class = "container">
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <div class = "container">
+            <h1 class = "title is-3"><i class = "fa fa-cogs" aria-hidden = "true"></i> SKILLS  </h1>
+            <p class = "title is-5">Programming:</p>
+            <ul class = "steps is-narrow is-large is-centered has-content-centered">
                 <li class = "steps-segment">
                     <a href = "#" class = "has-text-dark">
                         <span class = "steps-marker"><img src = "../images/python.sh-600x600.png"></span>
@@ -49,5 +114,18 @@
                     </a>
                 </li>
             </ul>
+            <p class = "title is-5">Tools:</p>
+            <div class = "container">
+                <img src = "../images/gimplogo.png">  
+                <img src = "../images/inkscapelogo.png">
+            </div><br>
+                <p class = "title is-5">Personal Skills:</p>
+                <ul>
+                <li>Time management</li>
+                <li>Leadership</li>
+                <li>Creativity</li>
+                <li>Team Player</li>
+                </ul>
+            </div>
     </body>
 </html>
