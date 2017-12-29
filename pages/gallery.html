@@ -5,158 +5,408 @@
         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
         <title>Sneha Priya</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
+        <link rel = "stylesheet" href = "../portfolio.css">
         <link href="https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab" rel="stylesheet"> 
         <style>
-            div.gallery{
-                margin:5px;
-                border:1px solid black;
-                float:left;
-                width:180px;
-            }
-            div.gallery:hover{
-                border:1px solid blue;
-            }
-            div.gallery img{
-                width:100%;
-                height:auto;
-            }
-            div.desc{
-                padding:15px;
-                text-align:center;
-                font-family:'Roboto Slab', serif;
-                background-color: white;
-            }
             h2 {
                 font-family:'Bitter', serif;
             }
-            body{
-               background-image:url("../images/gallery_bg.png");
-               background-repeat:no-repeat;
-               background-size:cover;
-            }
             html{
-                margin:0;
-                height:100%;
+                margin: 0;
+                height: 100%;
+            }
+            body{
+            margin:auto;
+            width:100%;
+            }
+            h1{
+            overflow:hidden;
+            color:white;
+            font-family: 'merriweather', serif;
+            }
+            h1:after{
+            content:'';
+            display:inline-block;
+            width:85%;
+            height:100%;
+            margin-right:-100%;
+            border-bottom:3px solid black;
             }
         </style>
         <link rel = "stylesheet" href = "../portfolio.css">
     </head>
-    
     <body>
-        <nav class = "navbar is-black" role = "navigation" aria-label = "main navigation">
-            <div class = "navbar-menu">
-                <div class = "navbar-end">
+        <section class = "hero is-black is-medium is-bold">
+            <div class = "hero head">
+                <nav class = "navbar">
+                <div class = "container">
+                    <div class = "nav-brand">
+                    <a class = "navbar-item" href = "#">Sneha Priya</a>
+                    <span class = "navbar-burger burger" data-target = "navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    </div>
+                </div>
+                <div id = "navbarMenu" class = "navbar-menu">
+                    <div class = "navbar-end">
                     <a href = "" class = "navbar-item">
                         About Me
                     </a>
-                    <a href = "" class = "navbar-item">
+                    <a href = "academics.html" class = "navbar-item">
                         Academics
                     </a>
-                    <a href = "" class = "navbar-item">
+                    <a href = "skills.html" class = "navbar-item">
                         Skills
                     </a>
                     <a href = "" class = "navbar-item">
                         Projects
                     </a>
-                    <a href = "" class = "navbar-item">
-                        Hobbies
-                    </a>
-                    <a href = "" class = "navbar-item is-active">
+                    <a href = "gallery.html" class = "navbar-item is-active">
                         Gallery
                     </a>
+                    </div>
                 </div>
+                </nav>
             </div>
-        </nav>
-        <section class = "hero">
             <div class = "hero-body">
                 <div class = "container">
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/sketch2.png">
-                            <img src = "../images/sketch2.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/sketch4.png">
-                            <img src = "../images/sketch4.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/sketch3.png">
-                            <img src = "../images/sketch3.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/sketch.png">
-                            <img src = "../images/sketch.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/sketch1.png">
-                            <img src = "../images/sketch1.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/paint1.png">
-                            <img src = "../images/paint1.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft1.png">
-                            <img src = "../images/craft1.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft8.png">
-                            <img src = "../images/craft8.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft2.png">
-                            <img src = "../images/craft2.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft3.png">
-                            <img src = "../images/craft3.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft6.png">
-                            <img src = "../images/craft6.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft5.png">
-                            <img src = "../images/craft5.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft4.png">
-                            <img src = "../images/craft4.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
-                    <div class = "gallery">
-                        <a target = "_blank" href = "../images/craft7.png">
-                            <img src = "../images/craft7.png" alt ="" width = "300" height = "200">
-                        </a>
-                        <div class = "desc">Description of the image</div>
-                    </div>
                 </div>
             </div>
         </section>
+        <div class = "container">
+            <br>
+            <br>
+            <br>
+            <h1 class = "title is-3"><i class = "fa fa-cogs" aria-hidden = "true"></i> GALLERY  </h1>
+            <section class = "section">
+                <div class = "columns is-multiline is-mobile">
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/paris.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/sketch4.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/sketch2.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/sketch.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/sketch3.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/paint1.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft1.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft2.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft3.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "column">
+                            <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft6.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft4.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "column">
+                        <div class = "card">
+                            <div class = "card-image">
+                                <figure class = "image is-3by2">
+                                    <img src = "../images/craft7.png" alt = "Placeholder image">
+                                </figure>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "media">
+                                    <div class = "media-left">
+                                        <figure class = "image is-48x48">
+                                            <img src = "../images/girl.png" alt = "Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class = "media-content">
+                                        <p class = "title is-4">Sneha Priya</p>
+                                        <p class = "subtitle is-6">snehapriya9527@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class = "content">
+                                    Description goes here.
+                                    <br>
+                                    <time datetime = "29-12-2017">07:21 PM - 29 Dec 2017</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </body>
 </html>
