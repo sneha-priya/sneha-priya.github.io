@@ -7,8 +7,11 @@
     <title>Sneha Priya</title>
     <link rel = "stylesheet" href = "../portfolio.css">
     <style>
+    html{
+    margin: 0;
+    height: 100%;
+    }
     body{
-      margin:auto;
       width:100%;
       background-image:url("../images/pattern11.jpg");
       background-repeat:repeat;
@@ -21,10 +24,13 @@
     h1:after{
       content:'';
       display:inline-block;
-      width:70%;
+      width:75%;
       height:100%;
       margin-right:-100%;
       border-bottom:3px solid black;
+    }
+    .footer{
+     background-color: rgb(240, 240, 242);
     }
     </style>
   </head>
@@ -44,38 +50,89 @@
             </div>
             <div id = "navbarMenu" class = "navbar-menu">
               <div class = "navbar-end">
-                <a href = "../index.html" class = "navbar-item">
+                <a href="../index.html" class="navbar-item">
+                  Home
+                </a>
+                <a href = "aboutme.html" class = "navbar-item">
                   About Me
                 </a>
-                <a href = "academics.html" class = "navbar-item">
+                <a href = "academics.html" class = "navbar-item is-active">
                   Academics
                 </a>
                 <a href = "skills.html" class = "navbar-item">
                   Skills
                 </a>
-                <a href = "" class = "navbar-item">
+                <a href = "projects.html" class = "navbar-item">
                   Projects
                 </a>
-                <a href = "gallery.html" class = "navbar-item is-active">
-                  Gallery
+                <a href = "gallery.html" class = "navbar-item">
+                  Interests
                 </a>
               </div>
             </div>
           </nav>
         </div>
+    </section>
+    <br>
+    <br>
+    <div class = "container">
+      <h1 class = "title is -3"><i class = "fa fa-graduation-cap" aria-hidden = "true"></i> ACADEMICS  </h1>
+      <br>
+      <section class = "hero">
         <div class = "hero-body">
           <div class = "container">
+            <table class = "table is-bordered">
+              <thead>
+                <tr>
+                  <th>Qualification</th>
+                  <th>University/Board</th>
+                  <th>Institution</th>
+                  <th>Year</th>
+                  <th>Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Bachelor of Engineering in Computer Science</td>
+                  <td>Vishweshwaraiah Technology University</td>
+                  <td>Proudadevaraya Institute of Technology</td>
+                  <td>2017</td>
+                  <td>68.7%</td>
+                </tr>
+                <tr>
+                  <td>II PUC</td>
+                  <td>Karnataka State Board</td>
+                  <td>Vijayanagar College</td>
+                  <td>2013</td>
+                  <td>57.16%</td>
+                </tr>
+                <tr>
+                  <td>X Std</td>
+                  <td>Central Board of Secondary Education</td>
+                  <td>Kendriya Vidhyalaya, T.B Dam</td>
+                  <td>2011</td>
+                  <td>81.7%</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
-      <br>
-      <br>
-      <br>
-      <div class = "container">
-        <h1 class = "title is -3"><i class = "fa fa-graduation-cap" aria-hidden = "true"></i> ACADEMICS  </h1>
-        <figure class = "image">
-          <img src = "../images/academicsfade.png">
-        </figure>
+      <figure class = "image is-3by2">
+        <img src = "../images/academicsfade.png">
+      </figure>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            This is my profile page, you can contact me at:
+            <a href="mailto:snehapriya9527@gmail.com">
+              <i class="fa fa-dg fa-envelope"></i>snehapriya9527@gmail.com</a>
+          </p>
+          <img src="../images/bulma.png" width=85 alt="Made with Bulma">
+        </div>
       </div>
+    </footer>
   </body>
 </html>

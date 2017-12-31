@@ -7,11 +7,14 @@
         <title>Sneha Priya</title>
         <link rel = "stylesheet" href = "../portfolio.css">
         <style>
+            html{
+            margin: 0;
+            height: 100%;
+            }
             body{
-                margin:auto;
-                width:100%;
-                background-image:url("../images/pattern11.jpg");
-                background-repeat:repeat;
+            width:100%;
+            background-image:url("../images/pattern11.jpg");
+            background-repeat:repeat;
             }
             h1{
             overflow:hidden;
@@ -25,6 +28,24 @@
             height:100%;
             margin-right:-100%;
             border-bottom:3px solid black;
+            }
+            .skills{
+                font-size:20px;
+                color:black;
+                padding:10px;
+            }
+            .language{
+                font-size:20px;
+                color:black;
+                padding:10px;
+            }
+            .hero-body{
+                background-image:url("../images/skills_bg.png");
+                background-repeat:no-repeat;
+                background-position: center;
+            }
+            .footer{
+                background-color: rgb(240, 240, 242);
             }
         </style>
     </head>
@@ -44,37 +65,35 @@
                 </div>
                 <div id = "navbarMenu" class = "navbar-menu">
                     <div class = "navbar-end">
-                    <a href = "../index.html" class = "navbar-item">
-                        About Me
-                    </a>
-                    <a href = "academics.html" class = "navbar-item">
-                        Academics
-                    </a>
-                    <a href = "skills.html" class = "navbar-item">
-                        Skills
-                    </a>
-                    <a href = "" class = "navbar-item">
-                        Projects
-                    </a>
-                    <a href = "gallery.html" class = "navbar-item is-active">
-                        Gallery
-                    </a>
+                        <a href="../index.html" class="navbar-item">
+                            Home
+                        </a>
+                        <a href = "aboutme.html" class = "navbar-item">
+                            About Me
+                        </a>
+                        <a href = "academics.html" class = "navbar-item">
+                            Academics
+                        </a>
+                        <a href = "skills.html" class = "navbar-item is-active">
+                            Skills
+                        </a>
+                        <a href = "projects.html" class = "navbar-item">
+                            Projects
+                        </a>
+                        <a href = "gallery.html" class = "navbar-item">
+                            Interests
+                        </a>
                     </div>
                 </div>
                 </nav>
             </div>
-            <div class = "hero-body">
-                <div class = "container">
-                </div>
-            </div>
         </section>
-        <br>
         <br>
         <br>
         <div class = "container">
             <h1 class = "title is-3"><i class = "fa fa-cogs" aria-hidden = "true"></i> SKILLS  </h1>
-            <p class = "title is-5">Programming:</p>
-            <ul class = "steps is-narrow is-large is-centered has-content-centered">
+            <p class = "title is-4">Programming:</p>
+            <ul class = "steps is-light is-narrow is-large is-centered has-content-centered">
                 <li class = "steps-segment">
                     <a href = "#" class = "has-text-dark">
                         <span class = "steps-marker"><img src = "../images/python.sh-600x600.png"></span>
@@ -118,16 +137,37 @@
             </ul>
             <p class = "title is-5">Tools:</p>
             <div class = "container">
-                <img src = "../images/gimplogo.png">  
-                <img src = "../images/inkscapelogo.png">
-            </div><br>
-                <p class = "title is-5">Personal Skills:</p>
-                <ul>
+                <img src="../images/gimplogo.png">
+                <img src="../images/inkscape.png">
+            </div>
+            <br>
+            <p class = "title is-4"><strong>Personal Skills:</strong></p>
+            <ul class = "skills"> 
                 <li>Time management</li>
                 <li>Leadership</li>
                 <li>Creativity</li>
                 <li>Team Player</li>
-                </ul>
+            </ul>
+            <br>
+            <p class = "title is-4"><strong>Languages:</strong></p>
+            <ul class = "language">
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Telugu</li>
+                <li>Kannada</li>
+            </ul>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <p>
+                        This is my profile page, you can contact me at:
+                        <a href="mailto:snehapriya9527@gmail.com">
+                            <i class="fa fa-dg fa-envelope"></i>snehapriya9527@gmail.com</a>
+                    </p>
+                    <img src="../images/bulma.png" width=85 alt="Made with Bulma">
+                </div>
             </div>
+        </footer>
     </body>
 </html>

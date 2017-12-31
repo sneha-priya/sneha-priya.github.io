@@ -12,19 +12,14 @@
       color:white;
       font-family: 'merriweather', serif;
     }
-    h1:after{
-      content:'';
-      display:inline-block;
-      width:85%;
-      height:100%;
-      margin-right:-100%;
-      border-bottom:3px solid black;
-    }
     body{
       margin:auto;
       width:100%;
-      background-image:url("images/pattern11.jpg");
-      background-repeat:repeat;
+      background-image:url("images/about.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      color:white;
+
     }
     .fa{
       position:auto;
@@ -33,10 +28,16 @@
       margin:0;
       height:100%;
     }
+    p{
+      font-size:45px;
+      color:rgb(182, 182, 182);
+      font-weight:bold;
+      text-align:center;
+    }
     </style>
   </head>
   <body>
-    <section class = "hero is-black is-medium is-bold">
+    <section class = "hero is-black is-bold">
       <div class = "hero head">
         <nav class = "navbar">
           <div class = "container">
@@ -51,7 +52,10 @@
           </div>
           <div id = "navbarMenu" class = "navbar-menu">
             <div class = "navbar-end">
-              <a href = "" class = "navbar-item">
+              <a href = "index.html" class = "navbar-item is-active">
+                Home
+              </a>
+              <a href = "pages/aboutme.html" class = "navbar-item">
                 About Me
               </a>
               <a href = "pages/academics.html" class = "navbar-item">
@@ -60,27 +64,21 @@
               <a href = "pages/skills.html" class = "navbar-item">
                 Skills
               </a>
-              <a href = "" class = "navbar-item">
+              <a href = "pages/projects.html" class = "navbar-item">
                 Projects
               </a>
-              <a href = "pages/gallery.html" class = "navbar-item is-active">
-                Gallery
+              <a href = "pages/gallery.html" class = "navbar-item">
+                Interests
               </a>
             </div>
           </div>
         </nav>
       </div>
-      <div class = "hero-body">
-        <div class = "container">
-        </div>
-      </div>
     </section>
-    <section class = "hero is-medium">
+    <section class = "hero is-fullheight">
       <div class = "hero-body">
         <div class = "container">
-          <h1 class = "title is -3">ABOUT ME  </h1>
-          <p>About.me (Usually styled as about.me) is a personal web hosting service co-founded by Ryan Freitas, Tony Conrad and Tim Young in October 2009.[1] The site offers registered users a simple platform from which to link multiple online identities, relevant external sites, and popular social networking websites such as Facebook, Flickr, Google+, Pinterest, LinkedIn, Twitter, Tumblr, and YouTube. It is characterized by its one-page user profiles, each with a large, often-artistic background image and abbreviated biography.</p>
-          <i class = "fa fa-envelope" aria-hidden = "true"><a href = "mailto:snehapriya9527@gmail.com">Email</a></i>
+            <p><a href = "pages/aboutme.html"><img src = "images/1.png"></a></p>
         </div>
       </div>
     </section>
